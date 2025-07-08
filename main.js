@@ -18,7 +18,7 @@ kategorien = ["Arme", "Beine", "Brust", "Ruecken", "Schultern", "Bauch"];
 
 for (let index = 0; index < 6; index++) {
     let koerperteil = koerper[index],
-    zufallszahl = getRndInteger(0, (koerperteil.length + 1)),
+    zufallszahl = getRndInteger(0, (koerperteil.length + 2)),
     id = "uebung" + (index + 1);
 
     document.getElementById(id).innerHTML = koerperteil[zufallszahl];
